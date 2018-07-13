@@ -13,9 +13,18 @@ from .grid_structured_quad import BmiGridStructuredQuad
 from .grid_unstructured import BmiGridUnstructured
 
 
-class Bmi(BmiBase, BmiInfo, BmiTime, BmiVars, BmiGetter, BmiSetter,
-          BmiGridRectilinear, BmiGridUniformRectilinear, BmiGridStructuredQuad,
-          BmiGridUnstructured):
+class Bmi(
+    BmiBase,
+    BmiInfo,
+    BmiTime,
+    BmiVars,
+    BmiGetter,
+    BmiSetter,
+    BmiGridRectilinear,
+    BmiGridUniformRectilinear,
+    BmiGridStructuredQuad,
+    BmiGridUnstructured,
+):
 
     """The complete Basic Model Interface.
 
