@@ -1,4 +1,0 @@
-name: Rafem
-language: python
-package: rafem.riverbmi
-class: BmiRiverModule
