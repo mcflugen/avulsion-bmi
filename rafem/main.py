@@ -3,7 +3,6 @@
 import os
 import pathlib
 import re
-import sys
 from collections import OrderedDict
 from functools import partial
 

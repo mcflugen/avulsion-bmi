@@ -52,7 +52,7 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint: ## check style with flake8
-	flake8 rafem tests
+	flake8 rafem
 
 pretty: ## reformat files to make them look pretty
 	find rafem tests -name '*.py' | xargs isort
